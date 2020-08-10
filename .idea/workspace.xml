@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +26,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1frFNo7QqOgSXJ7LQKlVE8T5xig" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,8 +36,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Consumer01Application">
+  <component name="RunManager" selected="Spring Boot.Consumer01Application">
     <configuration name="Consumer01Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.korbinc.Consumer01Application" />
       <module name="spring-greet-consumer-01" />
@@ -60,8 +65,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Consumer01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-greet-consumer-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.korbinc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pers.korbinc.Consumer01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-greet-provider-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.korbinc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pers.korbinc.Provider01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Consumer01Application" />
+        <item itemvalue="Spring Boot.Provider01Application" />
         <item itemvalue="Application.Consumer01Application" />
         <item itemvalue="Application.Provider01Application" />
       </list>
@@ -90,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596968266244</updated>
       <workItem from="1596968268015" duration="1895000" />
-      <workItem from="1596980516702" duration="1798000" />
+      <workItem from="1596980516702" duration="2645000" />
+      <workItem from="1597009151539" duration="770000" />
+      <workItem from="1597053168750" duration="2633000" />
     </task>
     <servers />
   </component>
@@ -98,29 +133,59 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1474" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1596969483317">
+    <state x="-1687" y="18" key="#Notifications" timestamp="1596984473186">
       <screen x="-1920" y="7" width="1280" height="687" />
+    </state>
+    <state x="-1687" y="18" key="#Notifications/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596984473186" />
+    <state x="535" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1597054854615">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1474" y="87" key="#com.intellij.ide.util.MemberChooser/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596969483317" />
-    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1596982726515">
+    <state x="535" y="96" key="#com.intellij.ide.util.MemberChooser/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597054854615" />
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1597055826121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596984503183" />
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826121" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1597055826120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.center/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596984503182" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826120" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1597055826120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.left/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596984503182" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826120" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1597055826121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.0.right/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596984503183" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826121" />
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1597055826121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826121" />
+    <state width="1493" height="230" key="GridCell.Tab.1.center" timestamp="1597055826121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.center/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826121" />
+    <state width="1493" height="230" key="GridCell.Tab.1.left" timestamp="1597055826121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.left/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826121" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right" timestamp="1597055826121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.right/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055826121" />
+    <state x="-1776" y="7" key="SettingsEditor" timestamp="1596984502149">
       <screen x="-1920" y="7" width="1280" height="687" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.bottom/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596982726515" />
-    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1596982726515">
-      <screen x="-1920" y="7" width="1280" height="687" />
+    <state x="-1776" y="7" key="SettingsEditor/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596984502149" />
+    <state x="335" y="233" key="new project wizard" timestamp="1597055351680">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.center/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596982726515" />
-    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1596982726515">
-      <screen x="-1920" y="7" width="1280" height="687" />
-    </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.left/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596982726515" />
-    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1596982726515">
-      <screen x="-1920" y="7" width="1280" height="687" />
-    </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.right/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596982726515" />
-    <state x="-1892" y="72" key="new project wizard" timestamp="1596981928145">
-      <screen x="-1920" y="7" width="1280" height="687" />
-    </state>
-    <state x="-1892" y="72" key="new project wizard/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1596981928145" />
+    <state x="-1864" y="56" key="new project wizard/-1920.7.1280.687/0.0.1536.824@-1920.7.1280.687" timestamp="1597053262317" />
+    <state x="335" y="233" key="new project wizard/-1920.7.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1597055351680" />
   </component>
 </project>

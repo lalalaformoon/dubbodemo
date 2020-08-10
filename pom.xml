@@ -11,8 +11,8 @@
     <modules>
         <module>01-dubbo-common</module>
         <module>02-spring-dubbo-demo</module>
-        <module>03-springboot-dubbo-demo</module>
         <module>02-spring-dubbo-demo/spring-greet-provider-01</module>
+        <module>03-springboot-dubbo-demo</module>
     </modules>
 
 
